@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    background-color: aquamarine;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: hover;
+    border: firebrick;
+}
+
+.parent{
+    display: flex;
+    height: 100px;
+    background-color: blue;
+    width: 200px;
+    align-items: normal;
+}
+
+.child{
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+}
